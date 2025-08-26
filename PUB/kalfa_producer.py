@@ -1,21 +1,20 @@
-from kafka import KafkaProducer
+from kafka import KafkaProducer,KafkaConsumer
 import json
-from newsgroups import newsgroups_interesting
-from newsgroups import newsgroups_not_interesting
 
 
 class Kalfa_producer:
 
     def __init__(self, server):
         self.server = server
-        self.producer = self.get_producer()
+        self.producer = None
 
 
-    def get_producer(self):
-        producer = KafkaProducer(bootstrap_servers=[self.server],
-                                 value_serializer=lambda x:
-                                 json.dumps(x).encode('utf-8'))
-        return producer
+    def create_producer(self):
+        if self.producer is None:
+            self.producer = KafkaProducer(bootstrap_servers=[self.server],
+                                     value_serializer=lambda x:
+                                     json.dumps(x).encode('utf-8'))
+
 
 
     def close_producer(self):
@@ -24,7 +23,9 @@ class Kalfa_producer:
         self.producer = None
 
 
-    def publish_message(self, topic, message):
+    def publish_messages(self, topic: str,title:str, data: list):
         if self.producer is not None:
-            self.producer.send(topic, message)
+            for d in data:
+                massage = {title: d}
+                self.producer.send(topic, massage)
 
