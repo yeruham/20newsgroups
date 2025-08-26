@@ -16,6 +16,7 @@ class Kafka_consumer:
     def run_consumer_events(self):
         self.consumer_events = KafkaConsumer(self.topic,
                                  value_deserializer=lambda m: json.loads(m.decode('ascii')),
+                                 group_id='my-group',
                                  bootstrap_servers=[self.server],
                                  consumer_timeout_ms= 20000)
 

@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b59ec56b-9a01-4d8e-9ba3-8214c81ddd68" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SUB/DAL/dal_mongo.py" beforeDir="false" afterPath="$PROJECT_DIR$/SUB/DAL/dal_mongo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PUB/kafka_producer.py" beforeDir="false" afterPath="$PROJECT_DIR$/PUB/kafka_producer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SUB/kafka_consumer.py" beforeDir="false" afterPath="$PROJECT_DIR$/SUB/kafka_consumer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SUB/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/SUB/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

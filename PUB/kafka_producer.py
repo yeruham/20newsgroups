@@ -12,8 +12,7 @@ class Kafka_producer:
     def create_producer(self):
         if self.producer is None:
             self.producer = KafkaProducer(bootstrap_servers=[self.server],
-                                     value_serializer=lambda x:
-                                     json.dumps(x).encode('utf-8'))
+                                     value_serializer=lambda x: json.dumps(x).encode('utf-8'))
 
 
 
