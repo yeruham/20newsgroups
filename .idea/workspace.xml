@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b59ec56b-9a01-4d8e-9ba3-8214c81ddd68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PUB/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SUB/DAL/dal_mongo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SUB/kafka_consumer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SUB/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PUB/kalfa_producer.py" beforeDir="false" afterPath="$PROJECT_DIR$/PUB/kalfa_producer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PUB/newsgroups.py" beforeDir="false" afterPath="$PROJECT_DIR$/PUB/newsgroups.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PUB/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PUB/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PUB/kalfa_producer.py" beforeDir="false" afterPath="$PROJECT_DIR$/PUB/kafka_producer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PUB/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/PUB/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SUB/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SUB/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,16 +51,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.kafka_consumer.executor": "Run",
     "Python.kalfa_producer.executor": "Run",
     "Python.main.executor": "Run",
     "Python.newsgroups.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "PUB",
-    "last_opened_file_path": "C:/python_data/kafka"
+    "git-widget-placeholder": "SUB",
+    "last_opened_file_path": "C:/python_data/20newsgroups/SUB/DAL"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\python_data\20newsgroups\SUB\DAL" />
       <recent name="C:\python_data\20newsgroups\SUB" />
       <recent name="C:\python_data\20newsgroups\PUB" />
     </key>

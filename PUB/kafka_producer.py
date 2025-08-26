@@ -1,8 +1,8 @@
-from kafka import KafkaProducer,KafkaConsumer
+from kafka import KafkaProducer
 import json
 
 
-class Kalfa_producer:
+class Kafka_producer:
 
     def __init__(self, server):
         self.server = server
@@ -26,6 +26,6 @@ class Kalfa_producer:
     def publish_messages(self, topic: str,title:str, data: list):
         if self.producer is not None:
             for d in data:
-                massage = {title: d}
-                self.producer.send(topic, massage)
+                message = {title: d}
+                self.producer.send(topic, message)
 
