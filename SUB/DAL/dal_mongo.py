@@ -48,6 +48,13 @@ class DAL_mongo:
             results = collection.insert_one(data)
             return results
 
+    def delete_all(self):
+        if self.client:
+            db = self.client[self.database]
+            collection = db[self.collection]
+            results =collection.delete_many({})
+            return results
+
 
     def close_connection(self):
         if self.client:
