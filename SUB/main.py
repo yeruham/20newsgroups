@@ -22,7 +22,8 @@ COLLECTION = os.getenv("COLLECTION", "interesting")
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     DAL_mongo.open_connection()
-    DAL_mongo.delete_all()
+    # delete all documents in collection for testing
+    # DAL_mongo.delete_all()
     CONSUMER.run_consumer_events()
     CONSUMER.save_events()
     yield
