@@ -25,7 +25,7 @@ class Kafka_consumer:
         if self.consumer_events is not None:
             for message in self.consumer_events:
                 print(message.offset)
-                data = {}
+                print(message.topic)
                 timestamp = datetime.datetime.now()
                 data = message.value
                 data['timestamp'] = timestamp

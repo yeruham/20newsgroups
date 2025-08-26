@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b59ec56b-9a01-4d8e-9ba3-8214c81ddd68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PUB/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PUB/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/PUB/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PUB/kafka_producer.py" beforeDir="false" afterPath="$PROJECT_DIR$/PUB/kafka_producer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PUB/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/PUB/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SUB/Dockerfile_interesting" beforeDir="false" afterPath="$PROJECT_DIR$/SUB/Dockerfile_interesting" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SUB/Dockerfilr_not_interesting" beforeDir="false" afterPath="$PROJECT_DIR$/SUB/Dockerfile_not_interesting" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SUB/kafka_consumer.py" beforeDir="false" afterPath="$PROJECT_DIR$/SUB/kafka_consumer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SUB/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/SUB/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SUB/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SUB/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +59,7 @@
     "Python.newsgroups.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/python_data/20newsgroups/SUB/DAL"
+    "last_opened_file_path": "C:/python_data/hostile-tweets"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -59,6 +67,9 @@
       <recent name="C:\python_data\20newsgroups\SUB\DAL" />
       <recent name="C:\python_data\20newsgroups\SUB" />
       <recent name="C:\python_data\20newsgroups\PUB" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\python_data\20newsgroups\SUB" />
     </key>
   </component>
   <component name="SharedIndexes">

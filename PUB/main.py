@@ -47,6 +47,5 @@ if __name__ == "__main__":
     PRODUCER = Kafka_producer(SERVER)
     newsgroups_interesting = news.iter_data(news.get_newsgroups_interesting(), 10)
     newsgroups_not_interesting = news.iter_data(news.get_newsgroups_not_interesting(), 10)
-
     uvicorn.run(app, host="0.0.0.0", port=8081)
 

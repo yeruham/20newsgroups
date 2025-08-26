@@ -2,6 +2,10 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
+ENV KAFKA_SERVER=broker
+ENV HOST=mongodb
+ENV COLLECTION=not_interesting
+
 ENV TOPIC=not_interesting
 ENV EXPOSE_PORT=8083
 

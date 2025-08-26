@@ -1,6 +1,7 @@
 from kafka import KafkaProducer
 import json
-
+import logging
+logging.basicConfig(format='%(levelname)s:%(message)s', level=logging.INFO)
 
 class Kafka_producer:
 
@@ -24,6 +25,7 @@ class Kafka_producer:
 
     def publish_messages(self, topic: str,title:str, data: list):
         if self.producer is not None:
+            print("start to publish messages")
             for d in data:
                 message = {title: d}
                 self.producer.send(topic, message)

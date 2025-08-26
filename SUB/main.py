@@ -4,7 +4,7 @@ import uvicorn
 import os
 
 
-from SUB.DAL.dal_mongo import DAL_mongo
+from DAL.dal_mongo import DAL_mongo
 from kafka_consumer import Kafka_consumer
 
 
