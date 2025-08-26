@@ -1,0 +1,15 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+ENV TOPIC=not_interesting
+ENV EXPOSE_PORT=8083
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+copy . .
+
+EXPOSE 8083
+
+CMD ["python","main.py"]
